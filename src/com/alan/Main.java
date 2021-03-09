@@ -8,8 +8,9 @@ public class Main {
         Lampada l = new Lampada();
 
         l.qtdEnergia = 10;
+        l.vazaoEnergia = 5;
+        l.corLuz = "Vermelho";
 
-        l.piscar();
         l.piscar();
     }
 }

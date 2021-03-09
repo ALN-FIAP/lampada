@@ -5,12 +5,15 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        Lampada l = new Lampada();
+        //um objeto
+        Lampada l = new Lampada(10,"Azul",3);
+        //outro objeto
+        Lampada l2 = new Lampada();
+        l.piscar();
+        l2.piscar();
 
-        l.qtdEnergia = 10;
-        l.vazaoEnergia = 5;
-        l.corLuz = "Vermelho";
-
+        l = l2;
+        
         l.piscar();
     }
 }

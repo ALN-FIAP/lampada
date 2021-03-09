@@ -5,6 +5,11 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        System.out.println("Hello World");
+        Lampada l = new Lampada();
+
+        l.qtdEnergia = 10;
+
+        l.piscar();
+        l.piscar();
     }
 }

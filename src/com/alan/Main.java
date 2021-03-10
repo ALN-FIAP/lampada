@@ -16,6 +16,7 @@ public class Main {
         
         l.piscar();
 
+        // Objeto Quadrado
         Quadrado q = new Quadrado(20);
 
         System.out.println("Area do quadrado é: "+ q.area());

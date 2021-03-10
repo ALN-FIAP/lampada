@@ -1,5 +1,8 @@
 package com.alan;
 
+import com.alan.classes.Lampada;
+import com.alan.classes.Quadrado;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -17,8 +20,8 @@ public class Main {
         l.piscar();
 
         // Objeto Quadrado
-        Quadrado q = new Quadrado(20);
-
-        System.out.println("Area do quadrado é: "+ q.area());
+        Quadrado q = new Quadrado(8);
+        q.setLado(-3);
+        System.out.println("Area do quadrado de lado " + q.getLado() +" é: "+ q.getArea());
     }
 }

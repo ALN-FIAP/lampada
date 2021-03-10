@@ -1,4 +1,4 @@
-package com.alan;
+package com.alan.classes;
 
 public class Lampada {
     //Atributos

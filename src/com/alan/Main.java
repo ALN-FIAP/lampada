@@ -1,7 +1,6 @@
 package com.alan;
 
-import com.alan.classes.Lampada;
-import com.alan.classes.Quadrado;
+import com.alan.classes.*;
 
 public class Main {
 
@@ -22,5 +21,11 @@ public class Main {
         Quadrado q = new Quadrado(8);
         q.setLado(-3);
         System.out.println("Area do quadrado de lado " + q.getLado() +" é: "+ q.getArea());
+
+        FormaGeometrica qHerdado = new QuadradoHerdado(3);
+
+
+        System.out.println("Area do quadrado herdado eh: " + qHerdado.getArea());
+
     }
 }

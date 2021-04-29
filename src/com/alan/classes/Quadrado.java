@@ -1,6 +1,6 @@
 package com.alan.classes;
 
-public class Quadrado {
+public class Quadrado  {
     // Atributos
     private int lado;
 

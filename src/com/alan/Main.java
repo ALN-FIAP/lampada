@@ -17,7 +17,8 @@ public class Main {
         l = l2;
         
         l.piscar();
-        
+
+        // Objeto Quadrado
         Quadrado q = new Quadrado(8);
         q.setLado(-3);
         System.out.println("Area do quadrado de lado " + q.getLado() +" é: "+ q.getArea());

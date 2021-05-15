@@ -27,5 +27,28 @@ public class Main {
 
         System.out.println("Area do quadrado herdado eh: " + qHerdado.getArea());
 
+        TesteException t = new TesteException();
+
+        try{
+            t.lancaCheckedException(0);
+
+        } catch (Exception e) {
+
+            System.out.println("Foi lançada uma checked exception "+e.getMessage());
+        }
+
+        try {
+            t.lancaUnchekedException(1);
+            t.lancaMinhaException(0);
+        } catch (MinhaException e) {
+            System.out.println("Foi lançada Minha exception "+e.getMessage());
+        } catch (RuntimeException e) {
+            System.out.println("Foi lançada Runtime exception "+e.getMessage());
+        }
+
+
+
+        System.out.println("FIM DO PROGRAMA TCHAU!");
+
     }
 }
